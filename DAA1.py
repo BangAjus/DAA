@@ -36,6 +36,7 @@ class sort:
                     list[j], list[j + 1] = list[j + 1], list[j]
             if not swapped:
                 return
+            
     # membuat fungsi insertion sort
     def insertion(list):
         for i in range(1, len(list)):
@@ -45,6 +46,7 @@ class sort:
                 list[j], list[j + 1] = list[j + 1], list[j]
                 j -= 1
             list[j+1] = key
+            
     # membuat fungsi selection sort
     def selection(list):
         for i in range(len(list)):
